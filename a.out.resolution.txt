@@ -1,0 +1,2 @@
+/tmp/conftest-57d2e6.o
+-r=/tmp/conftest-57d2e6.o,main,plx
