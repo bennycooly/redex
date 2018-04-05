@@ -32,14 +32,15 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)/opt/unterface \
 	-I$(top_srcdir)/tools/redex-all \
 	-I$(top_srcdir)/util \
+	-I$(top_srcdir)/shared \
 	-I/usr/include/jsoncpp
 
 TESTS = \
-	config_parser_test \
 	ev_arg_test \
 	extract_native_test \
 	fp_ev_test \
 	proguard_map_test
+#	config_parser_test
 
 TEST_LIBS = $(top_builddir)/test/libgtest_main.la $(top_builddir)/libredex.la
 
